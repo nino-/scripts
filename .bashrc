@@ -66,7 +66,7 @@ else
 #PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 echo -e "$bold_green"
 echo -e "   .---.                               "
-echo -e "  /     \  ____[ Polla |linux ]_____"
+echo -e "  /     \  ____[ nino |linux ]_____"
 echo -e "  |(\ /)|                              "
 echo -e "  (_ o _)        Bem-vindo '`whoami`'  "
 echo -e "   |===|                               "
@@ -125,7 +125,3 @@ fi
 export PATH=$PATH:/etc/alternatives/gem-bin
 export PATH=$PATH:/root/.gem/ruby/1.9.2/bin
 ##### FIM DO PRIMEIRO SCRIPT ########
-#alias ssh1='ssh -i ~/.ssh/id_rsa_gateway _fpolla@nibbler0001.linux.locaweb.com.br'
-#alias ssh2='ssh -i ~/.ssh/id_rsa_gateway _fpolla@nibbler0002.linux.locaweb.com.br'
-
-alias home='cd /home/fernando'
